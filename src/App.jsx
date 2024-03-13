@@ -1,16 +1,14 @@
-
 import { SideBar } from "./components/SideBar"
 import './App.css'
-
+import InstagramCard from "./components/Posts"
 function App() {
 
   return (
     <>
-      <div className="">
-        <SideBar/>
-        <p>hola mundo
-        </p>
-      </div>
+    <section className="container">
+      <SideBar/>
+        <InstagramCard/>
+    </section>
     </>
   )
 }

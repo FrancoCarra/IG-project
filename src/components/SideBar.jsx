@@ -8,9 +8,11 @@ export const SideBar = () => {
         <div className='sidebar'>
           {/* Itera sobre los componentes SVG */}
           {ArrayIcons.map((SvgComponent, index) => (
-            <div key={index}>
+            <div key={index} className='icons'>
               {/* Renderiza el componente SVG */}
+              <button className='iconbutton'>
               <SvgComponent />
+              </button>
             </div>
           ))}
         </div>
