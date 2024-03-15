@@ -1,6 +1,5 @@
 // InstagramCard.js
-import React from 'react';
-import { CardsIcons, SaveLogo } from '../assets/icons/Icons';
+import { CardsIcons } from '../assets/icons/Icons';
 
 
 // Definimos nuestro componente de tarjeta de Instagram
